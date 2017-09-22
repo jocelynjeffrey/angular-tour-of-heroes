@@ -1,6 +1,8 @@
 # HelloNG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2. It's a basic app that has many of the features you'd expect to find in a full-blown, data-driven app: acquiring and displaying a list of heroes, editing a selected hero's detail, and navigating among different views of heroic data.
+
+Find tutorial instructions here: `https://angular.io/tutorial`.
 
 ## Development server
 
@@ -10,9 +12,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Run
+Run `npm start`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+This command runs the TypeScript compiler in "watch mode", recompiling automatically when the code changes. The command simultaneously launches the app in a browser and refreshes the browser when the code changes.
 
 ## Running unit tests
 
